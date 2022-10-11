@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link ref="" href=""/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link href="style.css" rel="stylesheet"/>
+        <title >WEB PROFIL</title>
+    </head>
+    <body>
+        <header >
+            <div class="logo">
+                <img src="assets/Nongkrong1.png" alt="gambar logo" class="logo-img"/>
+                <h1 class="logo-title" > WAHIB Web Design</h1>
+
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#propil">PROFILE</a></li>
+                    <li><a href="mailto:wahibkurniawan2@gmail.com">EMAIL</a></li>
+                </ul>
+            </nav>
+            <div class="mr-10">
+                <button class="btn-cta" onclick="redirInstagram()">
+                    Follow IG
+                </button>
+            </div>
+                
+        </header>
+        <div class="container" >
+            <div class="intro">
+                <p class="title">Hello, i'm Wahib, nice to meet you!</p>
+                <p class="description"> Technology Influencer From Village.</p>
+                <img src="assets/flower3d.png" alt="wahib foto 1" class="img-foto"/>
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="home">
+                <p class="title">Saya Adalah Programer!</p>
+                <p class="description"> Hidup tak berarti tanpa ngoding.</p>
+                <div class="mt-10">
+                        <button class="btn-cta" onclick="redirWhatsapp()">
+                        CHAT WHATSAPP! 
+                        </button>
+                </div>
+            </div>
+            <div class="container">
+                    <div class="card" id="propil">
+                        <div class="card-item">
+                            <img src="assets/icon-nongki1.png" alt="icon nongkrong" class="icon"/>
+                            <p class="card-title"> Hoby saya nongkrong!🤣 </p>
+                            <p class="card-description"> bekerja keras itu baik, istirahat itu jg perlu, jangan terlalu memaksakan diri, bersantai sejenak dan tetep produktif ☕🚬</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="assets/icon-waktu1.png" alt="icon waktu" class="icon"/>
+                            <p class="card-title">Saya manage waktu! ⏲️</p>
+                            <p class="card-description"> waktu sangat berharga, jangan menunggu kehabisan waktu, karna semakin sedikit waktu maka semakin sedikit pula waktu kita sadar🤣</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="assets/icon-deal1.png" alt="icon deal" class="icon"/>
+                            <p class="card-title">Saya suka bekerja sama!🤝</p>
+                            <p class="card-description"> Bekerjasama merupakan salah satu kunci dalam membangun perusahaan, perbedaan antara sukses dan gagal dalam tim adalah kekompakan, komunikasi dan kerjasama 😍</p>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <footer>
+            <p class="penutup">&copy; Wahib Kurniawan Website 2022</p>
+        </footer>
+        <script>
+            function redirInstagram() {
+                window.location.href ="https://instagram.com/wahib_kurniawan"
+            }
+            function redirWhatsapp() {
+                window.location.href ="https://wa.me/081353943424"
+            }
+        </script>
+    </body>
+</html>
